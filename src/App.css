@@ -1,0 +1,80 @@
+
+/* for full page layout */
+.container2 {
+  display: flex;
+}
+.box1of2 {
+  flex: 0.5;
+}
+.box2of2 {
+  flex: 3;
+}
+.box3of2 {
+  flex: 0.5;
+}
+
+/* for grid of cells */
+.container1 {
+  display: flex;
+}
+.box1 {
+  flex: 3;
+}
+.box2 {
+  flex: 4;
+}
+.box3{
+  flex: 3;
+}
+
+body {
+  background-color: #F7F7F7;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 23px;
+}
+
+.cell {
+  width: 400px;
+  height: 560px;
+  border: 15px;
+  border-style: none;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 20px;
+  background: linear-gradient(to bottom, #FFFFFF 0%, #DCEFFF 100%);
+  color: #0D8CEF;
+}
+
+.cellTitle {
+  font-size: 40px;
+}
+
+.gridHeading {
+  font-size: 42px;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.mainTitle {
+  font-size: 60px;
+  padding: 1px;
+  margin: 1px;
+}
+
+.veLogo {
+  padding: 1px;
+  margin: 1px;
+}
+
+.videoPlayer {
+  border-block-color: red;
+  border-style: solid;
+  height: 50;
+  width: 50;
+}
+
+
